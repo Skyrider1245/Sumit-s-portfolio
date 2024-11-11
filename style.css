@@ -230,10 +230,9 @@ header {
     background-color: black;
 }
 
-/* Media Query for Mobile */
 @media (max-width: 768px) {
     nav ul {
-        display: none; /* Hide the nav items initially */
+        display: none;
         width: 100%;
         text-align: center;
         padding: 0;
@@ -246,37 +245,35 @@ header {
     }
 
     .menu-toggle {
-        display: flex; /* Show the hamburger icon on mobile */
+        display: flex;
     }
 
     nav.active ul {
-        display: block; /* Show the menu when active */
+        display: block;
     }
 }
 
 @media (max-width: 768px) {
     header {
-        flex-direction: column; /* Stack the header items vertically */
-        align-items: flex-start; /* Align items to the left */
+        flex-direction: column; 
+        align-items: flex-start; 
         padding: 15px;
     }
-
-    /* Adjust Logo Size for Small Screens */
+    
     .logo a {
         font-size: 1.8rem;
-        margin-bottom: 15px; /* Add some space between logo and nav */
+        margin-bottom: 15px; 
     }
 
-    /* Stack Navigation Items Vertically */
     nav ul {
         display: block;
-        width: 100%; /* Make the menu full width */
+        width: 100%; 
         text-align: left;
         padding: 0;
     }
 
     nav ul li {
-        margin: 10px 0; /* Stack items with vertical spacing */
+        margin: 10px 0;
     }
 
     nav ul li a {
